@@ -1,0 +1,267 @@
+@charset "utf-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+#body-login{
+	background-color: #00909C;
+}
+#body-flex-login{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+#container-login{
+	display: flex;
+	
+	height: 610px;
+	background-color: white;
+}
+#container-login-left {
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+	height: 610px;
+	width: 380px;
+	background-image: url("../Img/login-left.jpg");
+	padding: 0 16px; 
+}
+.header-login{
+	margin-top: 32px;
+} 
+ul{
+	list-style-type: none;
+}
+#header-left{
+	text-align: center;
+	color: white;
+}
+#text-logo{
+	font-size: 48px;
+}
+#hint-text-logo{
+	font-size: 20px;
+}
+#container-login-right{
+	background-color: #FF99CC;
+}
+#container-login-right input{
+	padding-top:10px;
+	margin-top: 20px;
+}
+#link{
+	float: right;
+
+}
+.material-textinput (type=text){
+	height:60px;
+	border:100px;
+	background-color: rgb(232, 240, 254);
+	width:70%;
+	align-items: center;
+}
+.material-textinput (type=submit){
+	background-color: rgb(232, 240, 254);
+	height:60px;
+	border:100px;
+	}
+.material-textinput >input-icon-email{
+	background-image: url("../Img/iconemail.png");
+	height:10px;
+	width:10px;
+}
+.material-textinput > input-icon-password{
+	background-image: url("../Img/iconpassword.png");
+	height:10px;
+	width:10px;
+}
+.circle-giohang{
+	text-align: center;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-size: 11px;
+	border-radius: 40px;
+	background-color: red;
+	line-height: 22px;
+	margin-top: -30px;
+	margin-left: 15px;
+}
+.circle-giohang >span{
+	color: white !important;
+}
+.container-signup-form{
+	display:none;
+}
+.container-signup-form > a{
+	display: block !important;
+}
+/*End css đăng nhập */
+
+/* Css trang chủ */
+#header{
+	background:linear-gradient(rgba(255,150,0,0.42), rgba(255,150,0,0.42)), url("../Img/ImageMAIN.jpg") no-repeat center center fixed;
+	height: 750px;
+	background-size:650px;
+	-webkit-backgroud-size : cover;
+	-moz-background-size :cover;
+	-o-background-size: cover
+	background-size:cover;
+	
+}
+
+#info{
+	text-align:center;
+	margin-top:48px;
+}
+#info > span{
+	margin-top: 16px;
+}
+#title-sanpham{
+	margin-top:100px;
+	text-align: center;
+	font-size :32px;
+	font-weight:500;
+}
+#footer{
+	margin-top:42px;
+	color:white;
+	padding:38px;
+	background-image: url("../Img/biafooter.jpg");
+}
+#footer p{
+	text-align:center;
+}
+.title-footer{
+	font-size:32px;
+	color:white;
+}
+
+.footer textare{
+	border:0;
+	background-color:blue;
+	width:100%;
+	color:black;
+}
+.sanpham img{
+	height: 256px;
+}
+.sanpham{
+	margin-top:46px; 
+	background-color:white;
+	border:1px solid #CCC;
+	border-radius:5px;
+	margin-left:3px;
+	margin-right:3px;
+}
+.price{
+	color:red;
+	font-size:15px;
+}
+.icon{
+	height: 48px;
+	width:48px;
+}
+.none_nav{
+	background:none !important;
+	border : none !important;
+}
+.navbar-nav a{
+	color : #0000CC	 !important;
+}
+.navbar-center{
+	margin-left:25% !important;
+}
+.bg-light {
+	background-color: none !important; 
+}
+.Login_Register{
+	cursor: pointer;
+	background-color: aqua;
+	box-shadow: 10px;
+	
+}
+#ShopMenu{
+	height: 27px;
+	width: 35px;
+	box-shadow: 10px;
+}
+.event_header{
+	text-align: center;
+	padding-top: 216px;
+}
+.event_header > span{
+	color: white;
+}
+.event_header > button{
+	color: white;
+	background-color: ##39FFE1;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	}
+	
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+ .navbar-center{
+ 	margin-left: 0% !important;
+ }
+	
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+.navbar-center{
+ 	margin-left: 0% !important;
+ }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+.navbar-center{
+ 	margin-left: 8% !important;
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+/* End Css trang chủ */
+
+/* Css Liên hệ */
+#hoptac input[type="text"]{
+	margin: 10px;
+}
+
+
+
+/*End Css Liên hệ */
+
+
+/* Menu */
+/* Menu đa cấp */
+/* .mymenu li>ul{ từ li tìm tới ul
+	display: none;
+}
+.mymenu li:hover > ul{ khi rê vào thể li thì hover chọn ra thẻ ul
+	display: block;
+} */
+.mymenu{
+	padding: 0;
+	margin: 0;
+}
+.mymenu  li{
+	font-size: 18px;
+	font-weight: 400;
+	padding: 4px 0px;
+}
+/*End menu*/
+
+
+/* Css dịch vụ */
+.titledichvu{
+	padding-top: 16px;
+}
+.csdoitra{
+	
+}
+.phigh{
+	
+}
